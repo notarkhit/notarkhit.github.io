@@ -350,7 +350,8 @@ var VanillaTilt = (function () {
         "width": "100%",
         "height": "100%",
         "overflow": "hidden",
-        "pointer-events": "none"
+        "pointer-events": "none",
+        "border-radius": "1em",
       });
   
       Object.assign(this.glareElement.style, {
@@ -362,6 +363,7 @@ var VanillaTilt = (function () {
         "transform": "rotate(180deg) translate(-50%, -50%)",
         "transform-origin": "0% 0%",
         "opacity": "0",
+        "border-radius": "1em",
       });
   
       this.updateGlareSize();
