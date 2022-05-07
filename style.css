@@ -1,0 +1,6 @@
+body {
+  height: 100vh;
+  width: 100vw;
+
+  background-image: linear-gradient(to right bottom, #ff00de, #d557f9, #a677ff, #778bff, #5099ff, #30a5ff, #0bb0fe, #00b9f9, #00c3eb, #00c8bd, #00c877, #5bc112);
+}
