@@ -32,7 +32,7 @@ img {
   padding: 50px 35px;
   border-radius: 1em;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  background: rgba(0, 0, 0, 0.3);
+  background: #00000089;
   box-shadow: 0 4px 30px #322e2e1a;
   backdrop-filter: blur(5px);
 }
@@ -81,4 +81,9 @@ ul li a:hover {
   padding: 0.5em;
   margin: 2em 0 0.625em;
   border-radius: 2em;
+}
+
+.btn:hover {
+  background: #ee6633;
+  color: #fff;
 }
