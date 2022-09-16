@@ -87,3 +87,8 @@ ul li a:hover {
   background: #ee6633;
   color: #fff;
 }
+
+.cta{
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+}
