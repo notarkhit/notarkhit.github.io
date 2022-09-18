@@ -92,3 +92,8 @@ ul li a:hover {
   margin-left: 0.8em;
   margin-right: 0.8em;
 }
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+}
