@@ -1,6 +1,9 @@
 const name = document.querySelector('[data-name]')
+// selected dom content 'name'
 const letters = [..."Aryan Arkhit Behra"]
+// 'array for name'
 
+// * Animation function 
 export function hoverPop() {
 
   letters.forEach((letter) => {
