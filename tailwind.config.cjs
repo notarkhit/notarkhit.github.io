@@ -1,0 +1,60 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        // Dark Theme: Rosé Pine
+        rosepine: {
+          base: "#191724",
+          surface: "#1f1d2e",
+          overlay: "#26233a",
+          muted: "#6e6a86",
+          subtle: "#908caa",
+          text: "#e0def4",
+          love: "#eb6f92",
+          gold: "#f6c177",
+          rose: "#ebbcba",
+          pine: "#31748f",
+          foam: "#9ccfd8",
+          iris: "#c4a7e7",
+          highlightLow: "#21202e",
+          highlightMed: "#403d52",
+          highlightHigh: "#524f67",
+        },
+        // Light Theme: Catppuccin Latte (Keeping it for now or we can use Rose Pine Dawn if you prefer)
+        latte: {
+          base: "#eff1f5",
+          mantle: "#e6e9ef",
+          crust: "#dce0e8",
+          text: "#4c4f69",
+          subtext1: "#5c5f77",
+          subtext0: "#6c6f85",
+          overlay2: "#7c7f93",
+          overlay1: "#8c8fa1",
+          overlay0: "#9ca0b0",
+          surface2: "#acb0be",
+          surface1: "#bcc0cc",
+          surface0: "#ccd0da",
+          blue: "#1e66f5",
+          sapphire: "#209fb5",
+          sky: "#04a5e5",
+          teal: "#179299",
+          green: "#40a02b",
+          yellow: "#df8e1d",
+          peach: "#fe640b",
+          maroon: "#e64553",
+          red: "#d20f39",
+          mauve: "#8839ef",
+          pink: "#ea76cb",
+          flamingo: "#dd7878",
+          rosewater: "#dc8a78",
+        },
+      },
+    },
+  },
+  plugins: [],
+}

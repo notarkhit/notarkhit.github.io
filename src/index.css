@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply transition-colors duration-300 min-h-screen antialiased bg-latte-base text-latte-text;
+  }
+}
+
+.dark body {
+  @apply bg-rosepine-base text-rosepine-text;
+}
